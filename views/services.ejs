@@ -1,0 +1,47 @@
+
+<%- include('partials/header'); %>
+
+<link rel="stylesheet" href ="/stylesheets/servicesStyle.css">
+</head>
+<div class="container">
+    <nav>
+        <img class="userPic" src="/images/customLogo.png" alt="profile picture">
+        <div class="userDetails">
+            <h1>Manya's Portfolio</h1>
+            
+            <span>Software Engineering Student</span>
+        </div>
+        <a href="/"><div class="home"><ion-icon name="home"></ion-icon>Home</div></a>
+        <a href="about"><div class="about"><ion-icon name="information-circle"></ion-icon>About</div></a>
+        <a href="project"><div class="project"><ion-icon name="folder-open"></ion-icon>Projects</div></a>
+        <a href="services"><div class="services"><ion-icon name="laptop"></ion-icon>Services</div></a>
+        <a href="contact"><div class="contact"><ion-icon name="call"></ion-icon>Contact</div></a>
+    </nav><br><br>
+    <article>
+        <table>
+            <tr>
+                <td class="servicesIcon"><ion-icon name="laptop"></ion-icon></td>
+                <td class="servicesData">Services</td>
+            </tr>
+            </table>
+            <table>
+            <tr>
+                <td>
+                    <img class="softwarePic" src="/images/softwares.jpg" alt="software engineering">
+                </td>
+                <td class="servicesList">
+                    <ul style="list-style-image:url(/images/bullet-pyramid-pink-2018.gif)">
+                        <li>Project Management</li>
+                        <li>Web Development</li>
+                        <li>Database Management</li>
+                        <li>GUI Based Applications</li>
+                        <li>Java Programming</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        
+    </article>
+</div>
+
+<%- include('partials/footer'); %>
