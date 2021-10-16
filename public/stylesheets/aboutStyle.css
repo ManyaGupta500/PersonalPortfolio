@@ -7,22 +7,22 @@ Date - October 1,2021
 
 body {
     content: "";
-    position: fixed;
+    
     background: #040404 url("/images/bgPic.jpg") top right no-repeat;
     background-size: cover;
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
-    height: 120vh;
+    height: 110vh;
     width:1250px;
     z-index: -1;
-    margin-left: 1cm;
+    margin-left: 1.5cm;
 }
 .container{
     max-width:1250px;
     margin:0 auto;
-    height: 180vh;
+    height: 100vh;
 }
 nav{
     display: flex;
@@ -96,7 +96,7 @@ article{
 	box-shadow: 5px 5px 5px 5px whitesmoke;
     width:1250px;
     opacity: 0.7;
-    height: 485px;
+    height: 495px;
 }
 
 article h1{
