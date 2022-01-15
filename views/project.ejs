@@ -1,70 +1,135 @@
-
-    
 <%- include('partials/header'); %>
 
 <link rel="stylesheet" href ="/stylesheets/projectStyle.css">
 </head>
-<div class="container">
-    <nav>
-        <img class="userPic" src="/images/customLogo.png" alt="profile picture">
-        <div class="userDetails">
-            <h1>Manya's Portfolio</h1>
+<body>
+    
+    <div class="index">
+        <nav class="navbar navbar-expand-lg nav-menu nav-menu-about">
+            <div class="container">
+                <button class="navbar-toggler ms-auto bg-dark navbar-dark" type="button" data-toggle="collapse"
+                    data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse ms-auto p-2"
+                    id="navbarNavAltMarkup">
+                    <div class="navbar-nav navbar-right">
+                        <li><a class="nav-link" href="/">Home&nbsp;</a></li>
+                        <li><a class="nav-link" href="about">About</a></li>
+                        <li class="active"><a class="nav-link" href="project">Projects</a></li>
+                        <li><a class="nav-link" href="services">Services</a></li>
+                        <li><a class="nav-link" href="contact">Contact</a></li>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    <br><br>
+ 
+<P id="projects">My Projects</P><br>
+    
+
+<section id="services" class="services">
+    <div class="container">
+
+
+        <div class="row" style="align-items: center; overflow: -moz-hidden-unscrollable;">
+
+
             
-            <span>Software Engineering Student</span>
+                
+                    <div class="card mb-3 text-white bg-dark m-0 p-0" style="max-width: 100%; max-height: auto;">
+
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="/images/project1.png" width="500px" height="auto"
+                                    class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        SURVEY SITE
+                                    </h5>
+                                    <p class="card-text"><i>
+                                        This web application offers a survey which includes a comprehensive collection
+                                         of questions for providing better results to students.<br>It is made 
+                                         using HTML, CSS, BootStrap and Node JS. </i>
+                                    </p>
+                                    <p class = "links">
+                                        Website - <a href="https://web-h.herokuapp.com/">https://web-h.herokuapp.com/</a>
+                                         <br>
+                                        GitHub  - <a href="https://github.com/Web-Heroes/team-proj">https://github.com/Web-Heroes/team-proj</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+
+                
+                    <div class="card mb-3 text-white bg-dark m-0 p-0" style="max-width: 100%; max-height: auto;">
+
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="/images/project4.png" width="500px" height="auto"
+                                    class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        CATALOG FORM
+                                    </h5>
+                                    <p class="card-text"><i>
+                                        A catalog form built inVisual Studio with C# and .Net Framework to 
+                                        manage the catalog forms as per the information entered by user.<br>This is a academic project made
+                                        in C# and .Net Framework with Visual Studio.</i>
+                                    </p>
+                                    <p class = "links">
+                                        GitHub - <a href="https://github.com/ManyaGupta500/Catalog-Form">
+                                            https://github.com/ManyaGupta500/Catalog-Form</a>
+                                         <br>
+                    
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+            
+                <div class="card mb-3 text-white bg-dark m-0 p-0" style="max-width: 100%; max-height: auto;">
+
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="/images/project2.png" width="500px" height="auto"
+                                class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    FAVBOOKS
+                                </h5>
+                                <p class="card-text"><i>
+                                    This web application helps the user to manage their favourite books list by adding, 
+                                    deleting and modifying stuff as per their wish.<br>
+                                    It is built using HTML, CSS, Node JS and Bootstrap.
+
+                                    </i>
+                                </p>
+                                <p class = "links">
+                                    Website - <a href="https://manya-midterm.herokuapp.com/books">https://manya-midterm.herokuapp.com/books</a>
+                                     <br>
+                                    GitHub  - <a href="https://github.com/ManyaGupta500/COMP229-midTerm">https://github.com/ManyaGupta500/COMP229-midTerm</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           
+            </div>
+
         </div>
-        <a href="/"><div class="home"><ion-icon name="home"></ion-icon>Home</div></a>
-        <a href="about"><div class="about"><ion-icon name="information-circle"></ion-icon>About</div></a>
-        <a href="project"><div class="project"><ion-icon name="folder-open"></ion-icon>Projects</div></a>
-        <a href="services"><div class="services"><ion-icon name="laptop"></ion-icon>Services</div></a>
-        <a href="contact"><div class="contact"><ion-icon name="call"></ion-icon>Contact</div></a>
-    </nav><br><br>
-    <article>
-        <table>
-            <tr>
-                <td class="servicesIcon"><ion-icon name="folder-open"></ion-icon></td>
-                <td class="servicesData">Projects</td>
-            </tr>
-        </table>
-        <table>
-            <tr>
-                <td>
-                    <h2 id= "project1" class="fst-italic" class="fw-bold">  Advanced employee management system</h2>
-                    <p id= "project1">
-                        Usually, large companies and organizations have a vast army of human resources
-                        working under them. In such scenarios where there’s a significant number of human 
-                        employees to manage, it becomes challenging to supervise and manage the activities 
-                        of the human resources efficiently. Such companies/organizations need an advanced 
-                        employee management system that can handle everything related to the company’s human
-                        resources. This project aims to build an employee management system that consolidates
-                        all the relevant information on a company’s human resources.
-                    </p>
-                </td>
-                <td>
-                    <img class = "project1" src="/images/employees.jpg">
-                </td>
-            </tr>
-             <tr>
-                <td>
-                    <img class = "project2" src="/images/photosStock.jpg">
-                </td>
-                <td>
-                    <h2 id= "project2" class="fst-italic" class="fw-bold">Stock of Photos and Templates</h2>
-                    <p id= "project2">
-                        One of the best ideas to start experimenting you hands-on web designing projects for 
-                        students is working on stock of photos and templates. In today’s corporate world,
-                        presentations and graphics lead the way be it sales pitch or a follow up meeting. 
-                        Often getting stock photos without flouting copyrights issues becomes a problem.
-                        Web portals like shutterstock often have certain limitations on usage, quality and
-                        even watermark.
-                        One of the most widely appreciated web designing project ideas would be around developing 
-                        an accessible and well stocked portal of graphics including images and templates which may
-                        have free or paid access. The key here would be availability and avoiding the hassle of
-                        dreadful hours of surfing the net to find one relevant picture. 
-                    </p>
-                </td>
-            </tr>
-            </table>      
-    </article>
+        </section>
+      <%- include('partials/footer'); %>
+</body>
 </div>
 
-<%- include('partials/footer'); %>
